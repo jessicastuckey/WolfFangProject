@@ -1,0 +1,105 @@
+main { background-color: #E7EFF6; }
+
+header p { font-size: 20px; }
+
+header h1 { font-size: 40px; }
+
+hr { border-width: 2px; width: 20%; }
+
+.longline {  border-width: 2px; width: 40%;  }
+
+#navbar { height: 60px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		background-color: #113158; }
+
+nav { font-size: 1.5em;
+	position: sticky; 
+	top: 0; left: 0; }
+
+nav a { font-family: Georgia, serif;
+	color: #FFFFFF;
+	text-decoration: none; }
+
+nav a:hover { color: #ADD5FF;
+		transition: color 0.2s; }
+
+#img { width: 130px;
+	height: 130px;
+	padding-top: 90px; }
+
+
+.button { border-radius: 30px;
+	padding: 0.5em; 
+	color: #FFFFFF;
+	background-color: #7b9efa;
+	text-align: center;
+	text-decoration: none; }
+
+
+.button:link { color : #FFFFFF; }
+.button:visited { color : #CCCCCC; }
+.button:hover { color : #113158; background-color: #b1cbff; }
+
+#homehero { display: flex; flex-direction: column; height: 600px; background-image: url(mainartblue.png); background-size: 100% 100%; color: #FFFFFF; }
+
+.maintitle { font-family: Perpetua, serif; padding-top: 150px; padding-left: 50px; font-size: 4em; }
+
+.instadiv {padding-left: 575px; display: inline-block; }
+
+.discorddiv {padding-left: 225px; display: inline-block; }
+
+.insta-icon { padding-top: 30px; font-size: 50px; color: #7B279F; }
+
+#headerbg {display: flex; flex-direction: column; justify-content: center; align-items: 	center; height: 400px; background-image: url(headerbg.png); background-size: 100% 	100%; color: #FFFFFF; padding: 0; margin: 0; }
+
+.imgbanner {width: 1100px; height: 350px; border-radius: 15px}
+
+.divbanner {display: flex; justify-content: center; padding-top: 10px; padding-bottom: 10px;}
+
+footer {display: flex; background-color: #113158; height: 200px; column-gap: 100px; }
+
+.footertxt { color: #FFFFFF; padding: 0 10px; text-decoration: none; }
+
+.footertxt:hover { color: #ADD5FF; 
+			transition: color 0.2s;}
+
+footer h3 {color: #FFFFFF; }
+
+#footerlogo { filter: grayscale(50%); opacity: 0.75; height: 125px; width: auto; padding-top: 30px; padding-left: 400px; }
+
+h2 { font-family: Perpetua, serif; padding-left: 20px; font-size: 2em;}
+
+.item-1 { order: 2; }
+
+.aboutheading { padding-left: 550px; padding-top: 20px; }
+
+.centerp {text-align: center; padding: 15px 175px; font-size: 20px; }
+
+.leftdiv {display: flex; margin: 20px 50px 20px 50px; }
+
+.leftdiv h2 {display: inline-block; }
+
+.leftdiv p {font-size: 25px; padding-left: 20px; padding-right: 400px; }
+
+.rightdiv {margin: 20px 50px 20px 50px; padding-top: 15px; display: flex; }
+
+.rightdiv h2 {padding-left: 670px; }
+
+.rightdiv p {text-align: right; font-size: 25px; padding-left: 400px; padding-right: 20px; }
+
+
+.navblockdiv {display: flex; justify-content: center; gap: 5px; flex-wrap: wrap; padding: 30px; }
+
+.navblock {background-color: #405A79; width: 300px; height: 200px; text-align: center; vertical-align: middle; line-height: 200px; }
+
+.navblocktxt {font-size: 20px; color: #FFFFFF; padding: 0 10px; text-decoration: none; }
+
+.homediv {display: flex; justify-content: center; align-items: center; background-color: #B8BDE1; margin: 30px 100px; height: 300px; text-align: left; border-radius: 10px; }
+
+.homediv p {font-size: 20px; padding-left: 30px; padding-right: 120px; }
+
+.homediv img {height: 250px; width: auto; padding-right: 30px; border-radius: 10px; }
+
+	
