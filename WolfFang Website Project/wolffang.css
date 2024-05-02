@@ -13,10 +13,12 @@ hr { border-width: 2px; width: 20%; }
 		justify-content: space-evenly;
 		align-items: center;
 		background-color: #113158;
-		z-index: 1; }
+		z-index: 1; 
+		}
 
 nav { font-size: 1.5em;
-	position: sticky; }
+	position: sticky; 
+	top: 0; bottom: 0;}
 
 
 nav a { font-family: Georgia, serif;
@@ -43,12 +45,19 @@ nav a:hover { color: #ADD5FF;
 .button:hover { color : #113158; background-color: #b1cbff; }
 
 #homehero { display: flex; flex-direction: column; height: 600px; background-image: url(mainartblue.png); background-size: 100% 100%; color: #FFFFFF; }
+#homehero h1 h2 {animation: fadeIn 2s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 .maintitle { font-family: Perpetua, serif; padding-top: 150px; padding-left: 50px; font-size: 4em; }
 
-.instadiv {padding-left: 575px; display: inline-block; }
+.socialicons {display: flex; justify-content: center; padding-bottom: 50px; }
 
-.discorddiv {padding-left: 225px; display: inline-block; }
+.socialheaders {display: flex; justify-content: center; padding-top: 40px; }
+.socialheaders h3 {font-size: 20px;}
 
 .insta-icon { padding-top: 30px; font-size: 50px; color: #7B279F; }
 .insta-icon:hover {color: #B2529F; transition: color 0.4s; }
@@ -100,7 +109,7 @@ h2 { font-family: Perpetua, serif; padding-left: 20px; font-size: 2em;}
 
 .navblock:hover {background-color: #9FACBC; color: #000000; transition: color 0.4s; }
 
-.navblocktxt {font-size: 20px; color: #FFFFFF; padding: 0 10px; text-decoration: none; }
+.navblocktxt {font-size: 25px; color: #FFFFFF; padding: 0 10px; text-decoration: none; }
 
 .homediv {display: flex; justify-content: center; align-items: center; background-color: #B8BDE1; margin: 30px 100px; height: 300px; text-align: left; border-radius: 10px; }
 
@@ -122,6 +131,60 @@ input, textarea { margin-bottom: .5em; }
 .griditem ul {color: #FFFFFF; padding-left: 40px; font-size: 23px; line-height: 1.4; text-shadow: .2px .2px 0 #000; }
 
 .griditem p {font-size: 21px; color: #FFFFFF; line-height: 1.3; padding: 0 30px 5px 30px; text-shadow: .2px .2px 0 #000; }
+
+table {margin: auto; width: 1200px; padding: 20px 0 30px 0; }
+
+.altrow {background-color: #D3D9E0; }
+
+th { font-size: 25px; padding: 0.5em; border-style: none; font-family: Perpetua; }
+
+td {font-size: 18px; padding: 20px; }
+
+.tablename {font-weight: bold; font-size: 22px; padding: 20px; text-align: center; }
+
+.tablename img { width: 250px; height: auto; }
+
+.image {float: left; height: 200px; width: auto; border: 3px solid; margin-right: 30px; }
+
+.biggerimage {float: left; height: 200px; width: auto; border: 3px solid; margin-right: 30px; }
+
+.resourcediv {padding: 20px 100px 80px 80px; background-color: #FAFBFD; margin: 50px 100px 0 100px; }
+
+
+.resourcediv h1 {padding-bottom: 10px;  }
+.resourcediv p {font-size: 20px; }
+
+.divbutton { border-radius: 10px;
+	padding: 0.5em; 
+	color: #000000;
+	background-color: #7b9efa;
+	text-align: center;
+	text-decoration: none;
+	margin: 50px 0 0 0; }
+
+.tableimage {float: left; height: 170px; width: auto; border: 3px solid;}
+
+@media (max-width: 480px) {
+	#navbar { height: 300px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #113158;
+		}
+
+	nav { font-size: 1.5em;
+		top: 0; bottom: 0;}
+
+
+	nav a { font-family: Georgia, serif;
+		color: #FFFFFF;
+		text-decoration: none; }
+
+	#img { display: none; }
+
+}
+
 
 
 	
